@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agnes ESL Teaching</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #2a9d8f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #264653;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #1d3557;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      color: #264653;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #2a9d8f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+    .cta {
+      background: #e9c46a;
+      padding: 1.5rem;
+      text-align: center;
+      border-radius: 8px;
+      margin: 2rem 0;
+    }
+    .cta a {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: #264653;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .cta a:hover {
+      background: #1d3557;
+    }
+    form {
+      display: grid;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 100%;
+    }
+    button {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      background: #2a9d8f;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #21867a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agnes ESL Teaching</h1>
+    <p>Learn English with confidence – Online lessons & teacher community</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#lessons">Lessons</a>
+    <a href="#blog">Ideas</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Agnes, an ESL teacher passionate about helping learners reach their goals. I specialize in practical, business, and conversational English for learners of all levels. I also love connecting with other teachers to share resources and creative lesson ideas.</p>
+    </section>
+
+    <section id="lessons">
+      <h2>Online Lessons</h2>
+      <ul>
+        <li>1:1 tailored lessons (Business & General English)</li>
+        <li>Group conversation practice</li>
+        <li>Exam preparation (IELTS, Cambridge, etc.)</li>
+      </ul>
+
+      <div class="cta">
+        <h3>Want to book a lesson?</h3>
+        <a href="#contact">Contact Me</a>
+      </div>
+    </section>
+
+    <section id="blog">
+      <h2>Teaching Ideas</h2>
+      <p>Here I share resources, classroom activities, and reflections for teachers. (You can later link this section to a blog or just update manually.)</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you’d like to book a lesson or collaborate, please get in touch:</p>
+
+      <!-- Replace the action URL with your Formspree form endpoint -->
+      <form action="https://formspree.io/f/movndlrl" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <!-- Optional: Anti-spam field -->
+        <input type="hidden" name="_subject" value="New message from ESL website!">
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Agnes ESL Teaching | Connect & Learn</p>
+  </footer>
+</body>
+</html>
